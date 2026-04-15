@@ -5,7 +5,7 @@
   "homepage": "https://cortlet.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cortlet-Software/@cortlet/@cortlet-org/env-vault.git"
+    "url": "https://github.com/Cortlet-Software/@cortlet/env-vault.git"
   },
   "type": "module",
   "main": "src/vault.js",
