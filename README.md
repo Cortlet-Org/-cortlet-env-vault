@@ -23,9 +23,9 @@ node -e "const crypto = require('node:crypto'); const fs = require('node:fs'); c
 ```
 ### 2. Lock Your Secrets
 Encrypt `.env` into `.env.vault`:
-
+```
 npx env-vault lock
-
+```
 ### 3. Run Your App
 Inject secrets into any command:
 
