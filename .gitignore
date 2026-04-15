@@ -3,8 +3,8 @@ node_modules/
 teammate_keys/
 testenv/
 *.log
-@cortlet/env-vault.exe
-@cortlet/env-vault.blob
+@cortlet/@cortlet-org/env-vault.exe
+@cortlet/@cortlet-org/env-vault.blob
 sea-config.json
 .DS_Store
 Thumbs.db

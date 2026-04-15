@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for @cortlet/env-vault
+about: Suggest an idea for @cortlet-org/env-vault
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

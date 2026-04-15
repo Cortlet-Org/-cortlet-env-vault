@@ -8,8 +8,8 @@ testenv/
 tests/
 
 # Build Artifacts
-@cortlet/env-vault.exe
-@cortlet/env-vault.blob
+@cortlet/@cortlet-org/env-vault.exe
+@cortlet/@cortlet-org/env-vault.blob
 sea-config.json
 
 # Development Files

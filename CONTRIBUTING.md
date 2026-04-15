@@ -1,4 +1,4 @@
-# Contributing to @cortlet/env-vault
+# Contributing to @cortlet-org/env-vault
 
 We welcome contributions that align with the Cortlet philosophy: **Security, Sovereignty, and Zero-Bloat.**
 

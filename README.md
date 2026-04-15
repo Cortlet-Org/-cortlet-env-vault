@@ -1,10 +1,10 @@
-# ⚡ @cortlet/env-vault
+# ⚡ @cortlet-org/env-vault
 
 Sovereign, no-bloat secret management using RSA identities. Zero cloud. Zero configuration.
 
 ## 🗝️ Why Sovereign?
 
-Most secret managers force you into a cloud ecosystem. **@cortlet/env-vault** keeps everything local, using the RSA keys already in your `~/.ssh` folder to protect your `.env` files.
+Most secret managers force you into a cloud ecosystem. **@cortlet/@cortlet-org/env-vault** keeps everything local, using the RSA keys already in your `~/.ssh` folder to protect your `.env` files.
 
 * **Zero Cloud:** No accounts, no subscriptions, no internet required.
 * **Asymmetric Sharing:** Grant access to teammates via public keys.
@@ -24,13 +24,13 @@ node -e "const crypto = require('node:crypto'); const fs = require('node:fs'); c
 Encrypt `.env` into `.env.vault`:
 
 ```bash
-npx @cortlet/env-vault lock
+npx @cortlet-org/env-vault lock
 ```
 ### 3. Run Your App
 Inject secrets into any command:
 
 ```bash
-npx @cortlet/env-vault run -- node app.js
+npx @cortlet-org/env-vault run -- node app.js
 ```
 ---
 
@@ -38,12 +38,12 @@ npx @cortlet/env-vault run -- node app.js
 
 Authorize a teammate by adding their public key:
 ```bash
-npx @cortlet/env-vault allow ./teammate_id_rsa.pub
+npx @cortlet-org/env-vault allow ./teammate_id_rsa.pub
 ```
 Your teammate can now run the vault using their own identity:
 
 ```bash
-npx @cortlet/env-vault -i ./their_keys_folder run -- node app.js
+npx @cortlet-org/env-vault -i ./their_keys_folder run -- node app.js
 ```
 ---
 

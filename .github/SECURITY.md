@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the latest version of **@cortlet/env-vault** is supported with security updates.
+Only the latest version of **@cortlet-org/env-vault** is supported with security updates.
 
 | Version | Supported |
 |---------|-----------|
