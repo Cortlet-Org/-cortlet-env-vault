@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve @cortlet-org/env-vault
+about: Create a report to help us improve secure-env-vars
 title: '[BUG] '
 labels: bug
 assignees: ''
@@ -18,7 +18,7 @@ A clear and concise description of what the bug is.
 **Environment Info:**
 - OS: [e.g. Windows 11]
 - Node version: [e.g. 20.x]
-- @cortlet/@cortlet-org/env-vault version: [e.g. 1.0.0]
+- secure-env-vars version: [e.g. 1.0.0]
 
 **Additional context**
 Add any other context about the problem here.

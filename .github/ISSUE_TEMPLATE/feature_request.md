@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for @cortlet-org/env-vault
+about: Suggest an idea for secure-env-vars
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

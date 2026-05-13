@@ -131,7 +131,7 @@ function handleAllow(identity, allowArgs) {
 }
 
 function showHelp() {
-    console.log(pc.cyan(`\n⚡ @cortlet-org/env-vault v1.0.0 | Cortlet Sovereign Security`));
+    console.log(pc.cyan(`\n⚡ secure-env-vars v1.0.0 | Cortlet Sovereign Security`));
     console.log(`  -i <path>         Specify identity folder (optional)`);
     console.log(`  lock              Sync .env to vault`);
     console.log(`  run -- <cmd>      Execute with secrets`);

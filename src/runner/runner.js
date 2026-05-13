@@ -10,7 +10,7 @@ import pc from 'picocolors';
 export function injectAndRun(command, args, secrets) {
     if (!command) {
         console.error(pc.red('✖ Error: No command provided to run.'));
-        console.log(pc.dim('Usage: @cortlet/@cortlet-org/env-vault run -- <command>'));
+        console.log(pc.dim('Usage: secure-env-vars run -- <command>'));
         process.exit(1);
     }
 

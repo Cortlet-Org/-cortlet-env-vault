@@ -1,16 +1,16 @@
 {
-  "name": "@cortlet-org/env-vault",
-  "version": "1.0.2",
+  "name": "secure-env-vars",
+  "version": "1.0.3",
   "description": "Sovereign, no-bloat secret management for Windows developers.",
   "homepage": "https://cortlet.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cortlet-Org/@cortlet/env-vault.git"
+    "url": "https://github.com/Cortlet-Org/-cortlet-env-vault"
   },
   "type": "module",
   "main": "src/vault.js",
   "bin": {
-    "@cortlet-org/env-vault": "bin/cli.js"
+    "secure-env-vars": "bin/cli.js"
   },
   "scripts": {
     "test": "node test/test-vault.js",
